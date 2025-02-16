@@ -1,6 +1,6 @@
 # DICOM Viewer Full Stack Application
 
-A full stack application that allows users to upload, process, and view DICOM files.
+A full stack application that allows users to upload, process, and view DICOM files. A preview video that shows the application running can be found in the root folder
 
 ## Features
 
