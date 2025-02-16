@@ -1,4 +1,4 @@
-# Stage 1: Build the frontend
+
 FROM node:18-alpine as builder
 
 WORKDIR /app
@@ -7,7 +7,7 @@ RUN npm install --legacy-peer-deps
 COPY . .
 RUN npm run build
 
-# Stage 2: Serve with Nginx
+
 FROM nginx:alpine
 
 # Copy custom Nginx configuration
